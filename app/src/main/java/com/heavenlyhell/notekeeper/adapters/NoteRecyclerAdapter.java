@@ -1,4 +1,4 @@
-package com.heavenlyhell.notekeeper;
+package com.heavenlyhell.notekeeper.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,8 +7,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.QuickContactBadge;
 import android.widget.TextView;
+
+import com.heavenlyhell.notekeeper.models.NoteInfo;
+import com.heavenlyhell.notekeeper.R;
+import com.heavenlyhell.notekeeper.activities.NoteActivity;
+import com.heavenlyhell.notekeeper.activities.NoteListActivity;
 
 import java.util.List;
 

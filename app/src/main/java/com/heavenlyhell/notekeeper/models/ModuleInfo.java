@@ -1,4 +1,4 @@
-package com.heavenlyhell.notekeeper;
+package com.heavenlyhell.notekeeper.models;
 
 
 import android.os.Parcel;

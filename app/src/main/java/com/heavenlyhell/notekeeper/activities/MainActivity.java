@@ -1,9 +1,8 @@
-package com.heavenlyhell.notekeeper;
+package com.heavenlyhell.notekeeper.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -15,6 +14,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.heavenlyhell.notekeeper.models.DataManager;
+import com.heavenlyhell.notekeeper.adapters.NoteRecyclerAdapter;
+import com.heavenlyhell.notekeeper.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

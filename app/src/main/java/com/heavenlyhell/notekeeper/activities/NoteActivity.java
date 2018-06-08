@@ -1,20 +1,24 @@
-package com.heavenlyhell.notekeeper;
+package com.heavenlyhell.notekeeper.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.heavenlyhell.notekeeper.models.CourseInfo;
+import com.heavenlyhell.notekeeper.models.DataManager;
+import com.heavenlyhell.notekeeper.models.NoteInfo;
+import com.heavenlyhell.notekeeper.R;
+
 import java.util.List;
 
-import static com.heavenlyhell.notekeeper.NoteListActivity.NOTE_POSITION;
+import static com.heavenlyhell.notekeeper.activities.NoteListActivity.NOTE_POSITION;
 
 public class NoteActivity extends AppCompatActivity {
 
